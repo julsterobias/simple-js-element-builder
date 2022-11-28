@@ -1,10 +1,11 @@
 # simple-js-element-builder
-Simple js element builder
+A simple js script to build HTML elements
 
 
-#Usage:
+# Usage:
 
-General Elements
+## General Elements
+```
 var el = js_el_generator(
     {
         type: 'div',
@@ -25,8 +26,9 @@ var el = js_el_generator(
         ]
     }
 )
-
-#Select
+```
+## Select
+```
 var el = js_el_generator(
     {
         type: 'select',
@@ -57,3 +59,4 @@ var el = js_el_generator(
         value: 'option-2'
     }
 )
+```
